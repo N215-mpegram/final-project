@@ -1,9 +1,10 @@
 footer {
     height: 80px;
-    background-color: $site-blue;
+    background-color: $site-pink;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 100px;
 
     .footerText {
         color: white;
