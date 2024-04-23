@@ -1,14 +1,33 @@
 footer {
-    height: 80px;
+    height: 455px;
     background-color: $site-pink;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
     margin-top: 100px;
 
-    .footerText {
+    .logo-W {
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-contact-info {
+        text-align: center;
         color: white;
-        font-size: 18px;
-        padding-top: 10px;
+        font-family: GSreg;
+        font-size: 16px;
+        
+    }
+
+    .footerText {
+        font-family: GSreg;
+        color: white;
+        opacity: 50%;
+        font-size: 12px;
     }
 }

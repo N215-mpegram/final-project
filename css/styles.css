@@ -120,17 +120,33 @@ nav .navLine {
 }
 
 footer {
-  height: 80px;
+  height: 455px;
   background-color: #EE4367;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
   margin-top: 100px;
 }
-footer .footerText {
+footer .logo-W {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .footer-contact-info {
+  text-align: center;
   color: white;
-  font-size: 18px;
-  padding-top: 10px;
+  font-family: GSreg;
+  font-size: 16px;
+}
+footer .footerText {
+  font-family: GSreg;
+  color: white;
+  opacity: 50%;
+  font-size: 12px;
 }
 
 @font-face {
