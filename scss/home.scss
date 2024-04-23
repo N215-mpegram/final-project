@@ -1,10 +1,52 @@
 .home {
     margin-top: -65px;
 
-    height: 500px;
-    // background-color: brown;
-    background-image: linear-gradient(rgba($site-yellow, 0.75),rgba($site-yellow, 0.75)), url(../images/home-hero.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    .hero {
+        height: 500px;
+        // background-color: brown;
+        background-image: linear-gradient(rgba($site-yellow, 0.75),rgba($site-yellow, 0.7)), url(../images/home-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .hero-content {
+            min-height: 100px;
+            // background-color: beige;
+            max-width: 310px;
+            text-align: center;
+            margin: auto;
+            padding-top: 155px;
+
+            .hero-title {
+                font-family: PTSreg;
+                font-size: 40px;
+                color: white;
+            }
+            .hero-sub-title {
+                font-family: GSitalic;
+                font-size: 20px;
+                color: $site-pink;
+                margin-top: 9px;
+            }
+            .hero-sub-title2 {
+                font-family: GSitalic;
+                font-size: 20px;
+                color: white;
+                margin-top: 49px;
+            }
+            .hero-button {
+                font-family: GSreg;
+                font-size: 15px;
+                color: white;
+                background-color: $site-pink;
+                text-align: center;
+                align-content: center;
+                width: 122px;
+                height: 40px;
+                margin: auto;
+                margin-top: 48px;
+            }
+        }
+    }
+
 }

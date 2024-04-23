@@ -53,7 +53,7 @@ nav .logo-W {
 nav .logo-B {
   width: 92px;
   height: 42px;
-  background-image: url(../images/logo-black.svg);
+  background-image: url(../images/logo/logo-black.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,11 +74,49 @@ nav .navLine {
 
 .home {
   margin-top: -65px;
+}
+.home .hero {
   height: 500px;
-  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/home-hero.jpg);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.7)), url(../images/home-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.home .hero .hero-content {
+  min-height: 100px;
+  max-width: 310px;
+  text-align: center;
+  margin: auto;
+  padding-top: 155px;
+}
+.home .hero .hero-content .hero-title {
+  font-family: PTSreg;
+  font-size: 40px;
+  color: white;
+}
+.home .hero .hero-content .hero-sub-title {
+  font-family: GSitalic;
+  font-size: 20px;
+  color: #EE4367;
+  margin-top: 9px;
+}
+.home .hero .hero-content .hero-sub-title2 {
+  font-family: GSitalic;
+  font-size: 20px;
+  color: white;
+  margin-top: 49px;
+}
+.home .hero .hero-content .hero-button {
+  font-family: GSreg;
+  font-size: 15px;
+  color: white;
+  background-color: #EE4367;
+  text-align: center;
+  align-content: center;
+  width: 122px;
+  height: 40px;
+  margin: auto;
+  margin-top: 48px;
 }
 
 footer {
