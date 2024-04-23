@@ -1,7 +1,7 @@
 {
-  "name": "homework-nine",
+  "name": "final-project",
   "version": "1.0.0",
-  "description": "This is my homework 9 repo for N215.",
+  "description": "My Final Project for my N215.",
   "main": "index.js",
   "scripts": {
     "compile": "sass scss/styles.scss css/styles.css -w",

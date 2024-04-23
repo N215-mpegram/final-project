@@ -1,7 +1,7 @@
-# Homework 9 Repo
+# Final Project Repo
 
-This is my homework-nine repo for N215.
+This is my final-project repo for N215.
 
-## Underneath is my hw9 link
+## Underneath is my final-project link
 
-https://in-info-web4.informatics.iupui.edu/~mpegram/N215/homework-nine/index.html
+https://in-info-web4.informatics.iupui.edu/~mpegram/N215/final-project/index.html
