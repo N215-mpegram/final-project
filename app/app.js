@@ -14,6 +14,6 @@ changeRoute();
 }
 
 $(document).ready(function () {
-    loadPage("gallery");
+    // loadPage("gallery");
     initURLListener();
 });

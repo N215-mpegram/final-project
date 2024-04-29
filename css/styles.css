@@ -636,5 +636,72 @@ footer .socials .socialIcons {
     margin-left: 0;
   }
 }
+.galleryPage {
+  width: 980px;
+  max-width: 90%;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 51px;
+  margin-bottom: 73px;
+}
+.galleryPage .G1-hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/gallery/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  color: #FFD140;
+}
+.galleryPage .G1-hero .gallery-title-F1 {
+  font-family: GSreg;
+  font-size: 300px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -92px;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.19);
+}
+.galleryPage .G1-hero .gallery-title-F2 {
+  font-family: GSreg;
+  font-size: 140px;
+  position: absolute;
+  bottom: -50px;
+  left: 214px;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.19);
+}
+.galleryPage .gallery-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.galleryPage .gallery-text .GT-box {
+  max-width: 450px;
+  font-family: GSlightitalic;
+  font-size: 16px;
+  margin-top: 37px;
+}
+
+@media all and (max-width: 700px) {
+  .galleryPage .G1-hero .gallery-title-F1 {
+    font-size: 150px;
+    bottom: -54px;
+  }
+  .galleryPage .G1-hero .gallery-title-F2 {
+    font-size: 70px;
+    bottom: -34px;
+    left: 114px;
+  }
+}
+@media all and (max-width: 380px) {
+  .galleryPage .G1-hero .gallery-title-F1 {
+    font-size: 100px;
+    bottom: -41px;
+  }
+  .galleryPage .G1-hero .gallery-title-F2 {
+    font-size: 33px;
+    bottom: -24px;
+    left: 80px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
