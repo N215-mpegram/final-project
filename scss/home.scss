@@ -49,4 +49,34 @@
         }
     }
 
+    .CEO-home {
+        height: 300px;
+        width: 780px;
+        margin: auto;
+        // background-color: ghostwhite;
+
+        .CEO-home-quote {
+            color: $site-yellow;
+            font-family: GSbolditalic;
+            font-size: 15px;
+            padding-top: 77px;
+        }
+        .CEO-home-name {
+            color: $site-pink;
+            font-family: PTSreg;
+            font-size: 15px;
+            padding-top: 20px;
+        }
+        .CEO-home-position {
+            color: $site-grey;
+            font-family: PTSreg;
+            font-size: 10px;
+            padding-top: 5px;
+        }
+    }
+
+    .upcoming-events {
+        height: 320px;
+        background-color: $site-purple;
+    }
 }

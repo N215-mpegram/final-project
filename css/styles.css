@@ -118,6 +118,33 @@ nav .navLine {
   margin: auto;
   margin-top: 48px;
 }
+.home .CEO-home {
+  height: 300px;
+  width: 780px;
+  margin: auto;
+}
+.home .CEO-home .CEO-home-quote {
+  color: #FFD140;
+  font-family: GSbolditalic;
+  font-size: 15px;
+  padding-top: 77px;
+}
+.home .CEO-home .CEO-home-name {
+  color: #EE4367;
+  font-family: PTSreg;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.home .CEO-home .CEO-home-position {
+  color: #A8A8A8;
+  font-family: PTSreg;
+  font-size: 10px;
+  padding-top: 5px;
+}
+.home .upcoming-events {
+  height: 320px;
+  background-color: #540D6E;
+}
 
 footer {
   height: 455px;
@@ -126,7 +153,6 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-top: 100px;
 }
 footer .logo-W {
   width: 92px;
