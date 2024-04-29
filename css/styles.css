@@ -120,7 +120,7 @@ nav .navLine {
 }
 .home .CEO-home {
   height: 300px;
-  width: 780px;
+  max-width: 780px;
   margin: auto;
 }
 .home .CEO-home .CEO-home-quote {
@@ -142,8 +142,75 @@ nav .navLine {
   padding-top: 5px;
 }
 .home .upcoming-events {
+  max-width: 1390px;
   height: 320px;
   background-color: #540D6E;
+}
+.home .upcoming-events .UPE-title {
+  margin-left: 76.5px;
+  padding-top: 50px;
+  color: white;
+  max-width: 392px;
+  font-family: GSreg;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-bottom: solid 2px white;
+}
+.home .upcoming-events .events-tiles {
+  max-width: 1198px;
+  height: 124px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .upcoming-events .events-tiles .UPE-tile {
+  width: 220px;
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-date {
+  background-color: #EE4367;
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-date .date-num {
+  font-family: GSbold;
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 17px;
+  top: 10px;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-date .date-month {
+  font-family: GSlight;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  left: 19px;
+  top: 36px;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-text {
+  width: 140px;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-text .UPE-header {
+  font-family: GSreg;
+  font-size: 15px;
+  color: white;
+  height: 41px;
+}
+.home .upcoming-events .events-tiles .UPE-tile .UPE-text .UPE-words {
+  font-family: GSreg;
+  font-size: 13px;
+  color: #EE4367;
+  height: 78px;
+  margin-top: -12px;
 }
 
 footer {
@@ -175,7 +242,7 @@ footer .footerText {
   font-size: 12px;
 }
 footer .footer-newsletter {
-  width: 696px;
+  max-width: 696px;
   height: 60px;
   display: flex;
 }
