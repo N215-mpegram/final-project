@@ -1,0 +1,79 @@
+.gallery-main {
+    width: $nav-width;
+    max-width: 90%;
+    min-height: 300px;
+    margin: auto;
+    // background-color: antiquewhite;
+    margin-top: 66px;
+    margin-bottom: 60px;
+
+    .GM-header {
+        margin-bottom: 30px;
+
+        .GM-title {
+            font-family: GSreg;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        .GM-line {
+            height: 2px;
+            width: 229px;
+            max-width: 90%;
+            background-color: black;
+            margin-top: -10px;
+        }
+    }
+
+    .GM-hero {
+        // background-color: azure;
+        min-height: 200px;
+
+        .GM-img-1 {
+            background-image: linear-gradient(rgba($site-yellow, 0.65),rgba($site-yellow, 0.65)), url(../images/gallery/1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 187px;
+            width: 489px;
+        }
+        .GM-img-2 {
+            background-image: linear-gradient(rgba($site-pink, 0.65),rgba($site-pink, 0.65)), url(../images/gallery/2.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 187px;
+            width: 187px;
+            margin-top: -187px;
+            margin-left: 509px;
+        }
+        .GM-img-3 {
+            background-image: linear-gradient(rgba($site-green, 0.65),rgba($site-green, 0.65)), url(../images/gallery/3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 187px;
+            width: 265px;
+            margin-top: -187px;
+            margin-left: 716px;
+        }
+        .GM-img-4 {
+            background-image: linear-gradient(rgba($site-purple, 0.65),rgba($site-purple, 0.65)), url(../images/gallery/4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 306px;
+            width: 603px;
+            margin-top: 20px;
+        }
+        .GM-img-5 {
+            background-image: linear-gradient(rgba($site-blue, 0.65),rgba($site-blue, 0.65)), url(../images/gallery/5.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 306px;
+            width: 355px;
+            margin-top: -306px;
+            margin-left: 626px;
+        }
+    }
+}
