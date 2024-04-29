@@ -1,5 +1,5 @@
 footer {
-    height: 455px;
+    min-height: 455px;
     background-color: $site-pink;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ footer {
     .footer-newsletter {
         // background-color: burlywood;
         max-width: 696px;
-        height: 60px;
+        min-height: 60px;
         display: flex;
 
         .footer-newsletter-input {
@@ -77,6 +77,37 @@ footer {
         .socialIcons {
             font-size: 32px;
             color: white;
+        }
+    }
+}
+
+@media all and (max-width: 750px) {
+    footer {
+        min-height: 455px;
+        background-color: $site-pink;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        // margin-top: 100px;
+
+        .footer-newsletter {
+            // background-color: burlywood;
+            max-width: 90%;
+            height: 60px;
+            display: flex;
+
+            .subscribe-button {
+                height: 100%;
+                width: 167px;
+                color: $site-pink;
+                background-color: white;
+                text-align: center;
+                padding: 20px 10px;
+                text-transform: uppercase;
+                font-family: GSreg;
+                font-size: 16px;
+            }
         }
     }
 }
