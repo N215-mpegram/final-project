@@ -1,0 +1,104 @@
+.contact {
+    margin: auto;
+    width: $nav-width;
+    margin-top: 65px;
+    margin-bottom: 90px;
+
+    .contactHeader {
+        font-family: GSreg;
+        font-size: 25px;
+    }
+    .contactLine {
+        height: 2px;
+        max-width: 229px;
+        background-color: #000;
+        margin-top: -10px;
+    }
+
+    .contactform {
+        margin-top: 65px;
+
+        .formInfoMap {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            // background-color: antiquewhite;
+
+            .formInfo {
+                display: flex;
+                flex-direction: column;
+                max-width: 529px;
+                width: 100%;
+                // background-color: burlywood;
+            
+                .formInput {
+                    background-color: $site-white;
+                    width: 100%;
+                    min-width: 100px;
+                    height: 60px;
+                    padding-left: 15px;
+                    color: $site-black;
+                    border: none;
+                    margin-bottom: 21px;
+                }
+                .formMes {
+                    background-color: $site-white;
+                    width: 100%;
+                    min-width: 100px;
+                    height: 199px;
+                    padding-left: 21px;
+                    padding-bottom: 145px;
+                    color: $site-black;
+                    border: none;
+                    // margin-top: 40px;
+                }
+                ::-webkit-input-placeholder {
+                    color: black;
+                    font-family: GSreg;
+                    font-size: 16px;
+                    opacity: 50%;
+                }
+            }
+
+                .map {
+                    background-image: url(../images/map.jpg);
+                    width: 400px;
+                    height: 442px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    // margin-bottom: 50px;
+                    // border: 2px solid;
+                }
+        }
+
+            .submit {
+                font-family: GSreg;
+                font-size: 15px;
+                color: white;
+                background-color: $site-pink;
+                text-align: center;
+                align-content: center;
+                text-transform: uppercase;
+                max-width: 167px;
+                padding: 21px;
+                // margin: auto;
+                margin-top: 21px;
+            }
+        
+    }
+}
+
+// @media all and (max-width: 660px) {
+//     .formInfoMap {
+//         flex-direction: column;
+//         .formInfo {
+//             margin-left: 20px;
+//             max-width: 100%;
+//         }
+
+//             img {
+//                 max-width: 100%;
+//         }
+//     }
+// }

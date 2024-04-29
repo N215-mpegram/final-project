@@ -19,7 +19,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #fff;
   position: relative;
   z-index: 99;
 }
@@ -28,16 +27,8 @@ nav a {
   font-family: GSreg;
   font-size: 15px;
 }
-nav .Nav-White {
-  border-bottom: 2px solid #fff;
-  color: #fff;
-}
 nav .Font-nav-W {
   color: #fff;
-}
-nav .Nav-Black {
-  border-bottom: 2px solid #000;
-  color: #000;
 }
 nav .Font-nav-B {
   color: #000;
@@ -70,6 +61,15 @@ nav .navLine {
   height: 22px;
   transform: skewX(-30deg);
   color: #fff;
+}
+
+.Nav-White {
+  border-bottom: 2px solid #fff;
+}
+
+.Nav-Black {
+  border-bottom: 2px solid #000;
+  color: #000;
 }
 
 .home {
@@ -235,6 +235,83 @@ nav .navLine {
     max-width: 90%;
   }
 }
+.contact {
+  margin: auto;
+  width: 980px;
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+.contact .contactHeader {
+  font-family: GSreg;
+  font-size: 25px;
+}
+.contact .contactLine {
+  height: 2px;
+  max-width: 229px;
+  background-color: #000;
+  margin-top: -10px;
+}
+.contact .contactform {
+  margin-top: 65px;
+}
+.contact .contactform .formInfoMap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .contactform .formInfoMap .formInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 529px;
+  width: 100%;
+}
+.contact .contactform .formInfoMap .formInfo .formInput {
+  background-color: #F5F5F5;
+  width: 100%;
+  min-width: 100px;
+  height: 60px;
+  padding-left: 15px;
+  color: #000;
+  border: none;
+  margin-bottom: 21px;
+}
+.contact .contactform .formInfoMap .formInfo .formMes {
+  background-color: #F5F5F5;
+  width: 100%;
+  min-width: 100px;
+  height: 199px;
+  padding-left: 21px;
+  padding-bottom: 145px;
+  color: #000;
+  border: none;
+}
+.contact .contactform .formInfoMap .formInfo ::-webkit-input-placeholder {
+  color: black;
+  font-family: GSreg;
+  font-size: 16px;
+  opacity: 50%;
+}
+.contact .contactform .formInfoMap .map {
+  background-image: url(../images/map.jpg);
+  width: 400px;
+  height: 442px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .contactform .submit {
+  font-family: GSreg;
+  font-size: 15px;
+  color: white;
+  background-color: #EE4367;
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+  max-width: 167px;
+  padding: 21px;
+  margin-top: 21px;
+}
+
 footer {
   min-height: 455px;
   background-color: #EE4367;
@@ -265,7 +342,7 @@ footer .footerText {
 }
 footer .footer-newsletter {
   max-width: 696px;
-  min-height: 60px;
+  height: 60px;
   display: flex;
 }
 footer .footer-newsletter .footer-newsletter-input {
