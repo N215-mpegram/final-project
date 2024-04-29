@@ -276,16 +276,6 @@ nav .navLine {
   margin-top: 65px;
   margin-bottom: 90px;
 }
-.contact .contactHeader {
-  font-family: GSreg;
-  font-size: 25px;
-}
-.contact .contactLine {
-  height: 2px;
-  max-width: 229px;
-  background-color: #000;
-  margin-top: -10px;
-}
 .contact .contactform {
   margin-top: 65px;
 }
@@ -485,6 +475,19 @@ footer .socials .socialIcons {
   font-family: GSlightitalic;
   src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
 }
+.Header {
+  font-family: GSreg;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.header-line {
+  height: 2px;
+  max-width: 229px;
+  background-color: #000;
+  margin-top: -10px;
+}
+
 .gallery-main {
   width: 980px;
   max-width: 90%;
@@ -493,22 +496,8 @@ footer .socials .socialIcons {
   margin-top: 66px;
   margin-bottom: 60px;
 }
-.gallery-main .GM-header {
-  margin-bottom: 30px;
-}
-.gallery-main .GM-header .GM-title {
-  font-family: GSreg;
-  font-size: 25px;
-  text-transform: uppercase;
-}
-.gallery-main .GM-header .GM-line {
-  height: 2px;
-  width: 229px;
-  max-width: 90%;
-  background-color: black;
-  margin-top: -10px;
-}
 .gallery-main .GM-hero {
+  padding-top: 30px;
   min-height: 200px;
   margin: 0 auto;
   display: flex;
