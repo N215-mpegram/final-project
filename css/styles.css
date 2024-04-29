@@ -185,26 +185,21 @@ nav .navLine {
   background-color: #EE4367;
   height: 60px;
   width: 60px;
-  position: relative;
 }
 .home .upcoming-events .events-tiles .UPE-tile .UPE-date .date-num {
   font-family: GSbold;
   font-size: 22px;
   color: white;
-  position: absolute;
   text-align: center;
-  left: 17px;
-  top: 10px;
+  margin-top: 9px;
 }
 .home .upcoming-events .events-tiles .UPE-tile .UPE-date .date-month {
   font-family: GSlight;
   font-size: 12px;
   color: white;
   text-transform: uppercase;
-  position: absolute;
   text-align: center;
-  left: 19px;
-  top: 36px;
+  margin-top: -15px;
 }
 .home .upcoming-events .events-tiles .UPE-tile .UPE-text {
   width: 140px;

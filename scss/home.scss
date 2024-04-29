@@ -122,26 +122,28 @@
                     background-color: $site-pink;
                     height: 60px;
                     width: 60px;
-                    position: relative;
+                    // position: relative;
 
                     .date-num {
                         font-family: GSbold;
                         font-size: 22px;
                         color: white;
-                        position: absolute;
+                        // position: absolute;
+                        // left: 17px;
+                        // top: 10px;
                         text-align: center;
-                        left: 17px;
-                        top: 10px;
+                        margin-top: 9px;
                     }
                     .date-month {
                         font-family: GSlight;
                         font-size: 12px;
                         color: white;
                         text-transform: uppercase;
-                        position: absolute;
+                        // position: absolute;
+                        // left: 19px;
+                        // top: 36px;
                         text-align: center;
-                        left: 19px;
-                        top: 36px;
+                        margin-top: -15px;
                     }
                 }
                 .UPE-text {
