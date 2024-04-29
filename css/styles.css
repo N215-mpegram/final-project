@@ -142,19 +142,22 @@ nav .navLine {
   padding-top: 5px;
 }
 .home .upcoming-events {
-  max-width: 1390px;
   height: 320px;
   background-color: #540D6E;
 }
 .home .upcoming-events .UPE-title {
-  margin-left: 76.5px;
   padding-top: 50px;
   color: white;
-  max-width: 392px;
+  max-width: 1198px;
   font-family: GSreg;
   font-size: 25px;
   text-transform: uppercase;
-  border-bottom: solid 2px white;
+  margin: 0 auto;
+}
+.home .upcoming-events .UPE-title .UPE-line {
+  height: 2px;
+  background-color: white;
+  max-width: 392px;
 }
 .home .upcoming-events .events-tiles {
   max-width: 1198px;
@@ -213,6 +216,91 @@ nav .navLine {
   margin-top: -12px;
 }
 
+@media all and (max-width: 1110px) {
+  .home {
+    margin-top: -65px;
+  }
+  .home .hero {
+    height: 500px;
+    background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.7)), url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home .hero .hero-content {
+    min-height: 100px;
+    max-width: 310px;
+    text-align: center;
+    margin: auto;
+    padding-top: 155px;
+  }
+  .home .hero .hero-content .hero-title {
+    font-family: PTSreg;
+    font-size: 40px;
+    color: white;
+  }
+  .home .hero .hero-content .hero-sub-title {
+    font-family: GSitalic;
+    font-size: 20px;
+    color: #EE4367;
+    margin-top: 9px;
+  }
+  .home .hero .hero-content .hero-sub-title2 {
+    font-family: GSitalic;
+    font-size: 20px;
+    color: white;
+    margin-top: 49px;
+  }
+  .home .hero .hero-content .hero-button {
+    font-family: GSreg;
+    font-size: 15px;
+    color: white;
+    background-color: #EE4367;
+    text-align: center;
+    align-content: center;
+    width: 122px;
+    height: 40px;
+    margin: auto;
+    margin-top: 48px;
+  }
+  .home .CEO-home {
+    height: 300px;
+    max-width: 780px;
+    margin: auto;
+  }
+  .home .CEO-home .CEO-home-quote {
+    color: #FFD140;
+    font-family: GSbolditalic;
+    font-size: 15px;
+    padding-top: 77px;
+  }
+  .home .CEO-home .CEO-home-name {
+    color: #EE4367;
+    font-family: PTSreg;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .home .CEO-home .CEO-home-position {
+    color: #A8A8A8;
+    font-family: PTSreg;
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  .home .upcoming-events {
+    width: 100%;
+    height: 320px;
+    background-color: #540D6E;
+  }
+  .home .upcoming-events .events-tiles {
+    max-width: 1198px;
+    height: 124px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 footer {
   height: 455px;
   background-color: #EE4367;
