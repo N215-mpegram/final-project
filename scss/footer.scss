@@ -30,4 +30,35 @@ footer {
         opacity: 50%;
         font-size: 12px;
     }
+
+    .footer-newsletter {
+        // background-color: burlywood;
+        width: 696px;
+        height: 60px;
+        display: flex;
+
+        .footer-newsletter-input {
+            height: 100%;
+            width: 529px;
+            border: 0;
+            background-color: white;
+            opacity: 30%;
+            color: white;
+            padding-left: 25px;
+        }
+
+        .subscribe-button {
+            height: 100%;
+            width: 167px;
+            color: $site-pink;
+            background-color: white;
+            text-align: center;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: GSreg;
+            font-size: 16px;
+        }
+    }
+
+
 }
