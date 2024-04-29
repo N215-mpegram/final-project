@@ -491,7 +491,8 @@ footer .socials .socialIcons {
   src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
 }
 .gallery-main {
-  max-width: 980px;
+  width: 980px;
+  max-width: 90%;
   min-height: 300px;
   margin: auto;
   margin-top: 66px;
@@ -513,8 +514,13 @@ footer .socials .socialIcons {
   margin-top: -10px;
 }
 .gallery-main .GM-hero {
+  background-color: cornflowerblue;
   min-height: 200px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .gallery-main .GM-hero .GM-img-1 {
   background-image: linear-gradient(rgba(255, 209, 64, 0.65), rgba(255, 209, 64, 0.65)), url(../images/gallery/1.png);
@@ -522,7 +528,9 @@ footer .socials .socialIcons {
   background-repeat: no-repeat;
   background-size: cover;
   height: 187px;
-  width: 489px;
+  width: 49%;
+  max-width: 489px;
+  min-width: none;
 }
 .gallery-main .GM-hero .GM-img-2 {
   background-image: linear-gradient(rgba(238, 67, 103, 0.65), rgba(238, 67, 103, 0.65)), url(../images/gallery/2.jpeg);
@@ -530,9 +538,10 @@ footer .socials .socialIcons {
   background-repeat: no-repeat;
   background-size: cover;
   height: 187px;
-  width: 187px;
-  margin-top: -187px;
-  margin-left: 509px;
+  width: 20%;
+  max-width: 187px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .gallery-main .GM-hero .GM-img-3 {
   background-image: linear-gradient(rgba(8, 173, 105, 0.65), rgba(8, 173, 105, 0.65)), url(../images/gallery/3.jpg);
@@ -540,9 +549,8 @@ footer .socials .socialIcons {
   background-repeat: no-repeat;
   background-size: cover;
   height: 187px;
-  width: 265px;
-  margin-top: -187px;
-  margin-left: 716px;
+  width: 29%;
+  max-width: 264px;
 }
 .gallery-main .GM-hero .GM-img-4 {
   background-image: linear-gradient(rgba(84, 13, 110, 0.65), rgba(84, 13, 110, 0.65)), url(../images/gallery/4.jpg);
@@ -550,7 +558,8 @@ footer .socials .socialIcons {
   background-repeat: no-repeat;
   background-size: cover;
   height: 306px;
-  width: 603px;
+  width: 63%;
+  max-width: 603px;
   margin-top: 20px;
 }
 .gallery-main .GM-hero .GM-img-5 {
@@ -559,64 +568,10 @@ footer .socials .socialIcons {
   background-repeat: no-repeat;
   background-size: cover;
   height: 306px;
-  width: 355px;
-  margin-top: -306px;
-  margin-left: 626px;
-}
-
-@media all and (max-width: 1100px) {
-  .gallery-main {
-    max-width: 90%;
-  }
-  .gallery-main .GM-hero {
-    background-color: coral;
-    min-height: 200px;
-    margin: 0 auto;
-  }
-  .gallery-main .GM-hero .GM-img-1 {
-    background-image: linear-gradient(rgba(255, 209, 64, 0.65), rgba(255, 209, 64, 0.65)), url(../images/gallery/1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 197px;
-    width: 507px;
-  }
-  .gallery-main .GM-hero .GM-img-2 {
-    background-image: linear-gradient(rgba(238, 67, 103, 0.65), rgba(238, 67, 103, 0.65)), url(../images/gallery/2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 197px;
-    width: 216px;
-    margin-top: -197px;
-    margin-left: 527px;
-  }
-  .gallery-main .GM-hero .GM-img-3 {
-    background-image: linear-gradient(rgba(8, 173, 105, 0.65), rgba(8, 173, 105, 0.65)), url(../images/gallery/3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 187px;
-    width: 265px;
-  }
-  .gallery-main .GM-hero .GM-img-4 {
-    background-image: linear-gradient(rgba(84, 13, 110, 0.65), rgba(84, 13, 110, 0.65)), url(../images/gallery/4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 306px;
-    width: 603px;
-  }
-  .gallery-main .GM-hero .GM-img-5 {
-    background-image: linear-gradient(rgba(59, 206, 171, 0.65), rgba(59, 206, 171, 0.65)), url(../images/gallery/5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 306px;
-    width: 355px;
-    margin-top: -306px;
-    margin-left: 626px;
-  }
+  width: 36%;
+  max-width: 354px;
+  margin-top: 20px;
+  margin-left: 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */
