@@ -72,6 +72,11 @@ nav .navLine {
   color: #000;
 }
 
+@media all and (max-width: 1200px) {
+  nav {
+    max-width: 90%;
+  }
+}
 .home {
   margin-top: -65px;
 }
@@ -295,6 +300,8 @@ nav .navLine {
   background-image: url(../images/map.jpg);
   width: 400px;
   height: 442px;
+  min-width: 100px;
+  min-height: 110.5px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,6 +319,18 @@ nav .navLine {
   margin-top: 21px;
 }
 
+@media all and (max-width: 1000px) {
+  .contact {
+    max-width: 90%;
+  }
+  .contact .formInfoMap {
+    flex-direction: column;
+  }
+  .contact .formInfoMap .map {
+    margin-top: 21px;
+    max-width: 100%;
+  }
+}
 footer {
   min-height: 455px;
   background-color: #EE4367;

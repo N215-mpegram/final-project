@@ -64,11 +64,11 @@
                     background-image: url(../images/map.jpg);
                     width: 400px;
                     height: 442px;
+                    min-width: 100px;
+                    min-height: 110.5px;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    // margin-bottom: 50px;
-                    // border: 2px solid;
                 }
         }
 
@@ -89,16 +89,16 @@
     }
 }
 
-// @media all and (max-width: 660px) {
-//     .formInfoMap {
-//         flex-direction: column;
-//         .formInfo {
-//             margin-left: 20px;
-//             max-width: 100%;
-//         }
+@media all and (max-width: 1000px) {
+    .contact {
+        max-width: 90%;
+        .formInfoMap {
+            flex-direction: column;
+            .map {
+                margin-top: 21px;
+                max-width: 100%;
+            }
+        }
+    }
 
-//             img {
-//                 max-width: 100%;
-//         }
-//     }
-// }
+}
