@@ -14,27 +14,62 @@
         height: 380px;
         position: relative;
         color: $site-yellow;
+    }
+    .G2-hero {
+        background-image: linear-gradient(rgba($site-pink, 0.7),rgba($site-pink, 0.7)), url(../images/gallery/2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        position: relative;
+        color: $site-pink;
+    }
+    .G3-hero {
+        background-image: linear-gradient(rgba($site-green, 0.7),rgba($site-green, 0.7)), url(../images/gallery/3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        position: relative;
+        color: $site-green;
+    }
+    .G4-hero {
+        background-image: linear-gradient(rgba($site-purple, 0.7),rgba($site-purple, 0.7)), url(../images/gallery/4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        position: relative;
+        color: $site-purple;
+    }
+    .G5-hero {
+        background-image: linear-gradient(rgba($site-blue, 0.7),rgba($site-blue, 0.7)), url(../images/gallery/5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        position: relative;
+        color: $site-blue;
+    }
 
-        .gallery-title-F1 {
+    .gallery-title-F1 {
             font-family: GSreg;
             font-size: 300px;
-            text-transform: uppercase;
             position: absolute;
             bottom: -92px;
             text-shadow: 5px 5px 6px rgba($site-black, 0.19);
-        }
-        .gallery-title-F2 {
+    }
+    .gallery-title-F2 {
             font-family: GSreg;
-            font-size: 140px;
-            // text-transform: uppercase;
+            font-size: 130px;
             position: absolute;
             bottom: -50px;
             left: 214px;
             text-shadow: 5px 5px 6px rgba($site-black, 0.19);
-        }
     }
 
     .gallery-text {
+    margin-top: 50px;
         display: flex;
         // align-items: center;
         justify-content: space-between;
@@ -50,34 +85,30 @@
 
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 750px) {
     .galleryPage {   
-        .G1-hero {    
-            .gallery-title-F1 {
-                font-size: 150px;
-                bottom: -54px;
-            }
-            .gallery-title-F2 {
-                font-size: 70px;
-                bottom: -34px;
-                left: 114px;
-            }
+        .gallery-title-F1 {
+            font-size: 150px;
+            bottom: -54px;
+        }
+        .gallery-title-F2 {
+            font-size: 70px;
+            bottom: -34px;
+            left: 114px;
         }
     }
 }
 
-@media all and (max-width: 380px) {
+@media all and (max-width: 440px) {
     .galleryPage {   
-        .G1-hero {    
-            .gallery-title-F1 {
-                font-size: 100px;
-                bottom: -41px;
-            }
-            .gallery-title-F2 {
-                font-size: 33px;
-                bottom: -24px;
-                left: 80px;
-            }
+        .gallery-title-F1 {
+            font-size: 100px;
+            bottom: -41px;
+        }
+        .gallery-title-F2 {
+            font-size: 33px;
+            bottom: -24px;
+            left: 90px;
         }
     }
 }

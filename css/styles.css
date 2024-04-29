@@ -653,23 +653,59 @@ footer .socials .socialIcons {
   position: relative;
   color: #FFD140;
 }
-.galleryPage .G1-hero .gallery-title-F1 {
+.galleryPage .G2-hero {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/gallery/2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  color: #EE4367;
+}
+.galleryPage .G3-hero {
+  background-image: linear-gradient(rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/gallery/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  color: #08AD69;
+}
+.galleryPage .G4-hero {
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/gallery/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  color: #540D6E;
+}
+.galleryPage .G5-hero {
+  background-image: linear-gradient(rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/gallery/5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  color: #3BCEAB;
+}
+.galleryPage .gallery-title-F1 {
   font-family: GSreg;
   font-size: 300px;
-  text-transform: uppercase;
   position: absolute;
   bottom: -92px;
   text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.19);
 }
-.galleryPage .G1-hero .gallery-title-F2 {
+.galleryPage .gallery-title-F2 {
   font-family: GSreg;
-  font-size: 140px;
+  font-size: 130px;
   position: absolute;
   bottom: -50px;
   left: 214px;
   text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.19);
 }
 .galleryPage .gallery-text {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -681,26 +717,26 @@ footer .socials .socialIcons {
   margin-top: 37px;
 }
 
-@media all and (max-width: 700px) {
-  .galleryPage .G1-hero .gallery-title-F1 {
+@media all and (max-width: 750px) {
+  .galleryPage .gallery-title-F1 {
     font-size: 150px;
     bottom: -54px;
   }
-  .galleryPage .G1-hero .gallery-title-F2 {
+  .galleryPage .gallery-title-F2 {
     font-size: 70px;
     bottom: -34px;
     left: 114px;
   }
 }
-@media all and (max-width: 380px) {
-  .galleryPage .G1-hero .gallery-title-F1 {
+@media all and (max-width: 440px) {
+  .galleryPage .gallery-title-F1 {
     font-size: 100px;
     bottom: -41px;
   }
-  .galleryPage .G1-hero .gallery-title-F2 {
+  .galleryPage .gallery-title-F2 {
     font-size: 33px;
     bottom: -24px;
-    left: 80px;
+    left: 90px;
   }
 }
 
