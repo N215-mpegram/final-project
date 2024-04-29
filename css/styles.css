@@ -82,7 +82,7 @@ nav .navLine {
 }
 .home .hero {
   height: 500px;
-  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.7)), url(../images/home-hero.jpg);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/home-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,6 +240,41 @@ nav .navLine {
     max-width: 90%;
   }
 }
+.about {
+  width: 980px;
+  max-width: 90%;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 86px;
+  margin-bottom: 90px;
+}
+.about .page-hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  position: relative;
+}
+.about .page-hero .about-hero-header {
+  font-family: GSreg;
+  font-size: 25px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -22px;
+}
+.about .header-line {
+  height: 2px;
+  max-width: 229px;
+  background-color: black;
+  margin-top: 16px;
+}
+.about .about-text {
+  font-family: GSlightitalic;
+  font-size: 16px;
+  margin-top: 37px;
+}
+
 .contact {
   margin: auto;
   width: 980px;
