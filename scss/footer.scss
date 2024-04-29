@@ -41,10 +41,15 @@ footer {
             height: 100%;
             width: 529px;
             border: 0;
-            background-color: white;
-            opacity: 30%;
-            color: white;
+            background-color: #F56B88;
             padding-left: 25px;
+            color: white;
+            font-family: GSreg;
+        }
+        ::-webkit-input-placeholder {
+            color: white;
+            font-family: GSreg;
+            opacity: 50%;
         }
 
         .subscribe-button {
@@ -60,5 +65,18 @@ footer {
         }
     }
 
+    .socials {
+        // margin: 0 auto;
+        width: 156px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
+
+        .socialIcons {
+            font-size: 32px;
+            color: white;
+        }
+    }
 }
