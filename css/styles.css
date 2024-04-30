@@ -801,4 +801,61 @@ footer .socials .socialIcons {
   margin-top: -22px;
 }
 
+.blogPage {
+  width: 980px;
+  max-width: 90%;
+  min-height: 300px;
+  margin: auto;
+  margin-top: 56px;
+  margin-bottom: 151px;
+}
+.blogPage .blog-hero {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 981px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blogPage .blog-hero .blog-date2 {
+  background-color: #EE4367;
+  height: 155px;
+  min-height: 155px;
+  width: 155px;
+  min-width: 155px;
+}
+.blogPage .blog-hero .blog-date2 .date-num2 {
+  font-family: GSbold;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  padding-top: 24px;
+}
+.blogPage .blog-hero .blog-date2 .date-month2 {
+  font-family: GSlight;
+  font-size: 31px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -15px;
+}
+.blogPage .blog-text {
+  margin-top: 57px;
+}
+.blogPage .blog-text .blog-header {
+  text-transform: capitalize;
+  font-family: GSreg;
+  font-size: 20px;
+  color: #EE4367;
+}
+.blogPage .blog-text .blog-info {
+  font-family: GSlight;
+  font-size: 20px;
+  max-width: 856px;
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
