@@ -35,7 +35,9 @@ nav .Font-nav-B {
 }
 nav .logo-W {
   width: 92px;
+  min-width: 92px;
   height: 42px;
+  min-height: 42px;
   background-image: url(../images/logo/logo-white.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +45,9 @@ nav .logo-W {
 }
 nav .logo-B {
   width: 92px;
+  min-width: 92px;
   height: 42px;
+  min-height: 42px;
   background-image: url(../images/logo/logo-black.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -122,6 +126,7 @@ nav .navLine {
   height: 40px;
   margin: auto;
   margin-top: 48px;
+  text-decoration: none;
 }
 .home .CEO-home {
   min-height: 300px;
@@ -180,6 +185,7 @@ nav .navLine {
   height: 124px;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
 }
 .home .upcoming-events .events-tiles .UPE-tile .UPE-date {
   background-color: #EE4367;

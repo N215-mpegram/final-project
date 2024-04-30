@@ -26,7 +26,9 @@ nav {
 
     .logo-W {
         width: 92px;
+        min-width: 92px;
         height: 42px;
+        min-height: 42px;
         background-image: url(../images/logo/logo-white.svg);
         background-position: center;
         background-repeat: no-repeat;
@@ -34,7 +36,9 @@ nav {
     }
     .logo-B {
       width: 92px;
+      min-width: 92px;
       height: 42px;
+      min-height: 42px;
       background-image: url(../images/logo/logo-black.svg);
       background-position: center;
       background-repeat: no-repeat;
